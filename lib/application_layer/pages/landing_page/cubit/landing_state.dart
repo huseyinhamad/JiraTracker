@@ -1,10 +1,12 @@
 part of 'landing_cubit.dart';
 
-abstract class LandingState extends Equatable {
-  const LandingState();
+abstract class LandingCubitState extends Equatable {
+  const LandingCubitState();
 
   @override
   List<Object> get props => [];
 }
 
-class LandingInitial extends LandingState {}
+class LandingInitial extends LandingCubitState {
+  const LandingInitial();
+}
